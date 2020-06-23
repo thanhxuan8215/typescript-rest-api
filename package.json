@@ -1,0 +1,19 @@
+{
+  "name": "typescript-rest-api",
+  "version": "1.0.0",
+  "scripts": {
+    "tsc": "tsc",
+    "start" : "npm run tsc && node ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "source-map-support": "^0.5.19",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
+  }
+}
